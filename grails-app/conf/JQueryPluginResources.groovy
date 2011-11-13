@@ -9,8 +9,9 @@ modules = {
             disposition:'head', nominify: !dev
     }
 
-    'jquery-dev' {
-        resource id:'js', url:[plugin: 'jquery', dir:'js/jquery', file:"jquery-${jqver}.js"], 
-            disposition:'head'
-    }
+//    'jquery-dev' {
+//        resource id:'js', url:[plugin: 'jquery', dir:'js/jquery', file:"jquery-${jqver}.js"], 
+//            disposition:'head'
+//    }
+
 }
